@@ -11,7 +11,7 @@ class BandInput extends Component {
     event.preventDefault();
     this.props.addBand(this.state)
     this.setState({
-      name: '',                                
+      name: '',
     })
   }
 
